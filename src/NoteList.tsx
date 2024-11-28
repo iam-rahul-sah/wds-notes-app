@@ -106,14 +106,23 @@ function NoteCard({ id, title, tags }: SimplifiedNotes) {
       className={`h-100 text-reset text-decoration-none ${styles.card}`}
     >
       <Card.Body>
-        <Stack gap={2} className="align-items-center justify-content-center h-100">
+        <Stack
+          gap={2}
+          className="align-items-center justify-content-center h-100"
+        >
           <span className="fs-5">{title}</span>
           {tags.length > 0 && (
-            <Stack direction="horizontal" gap={1} className="justify-content-center flex-wrap">
-              {tags.map(tag => (
-                <Badge key={tag.id} className="text-truncate">{tag.label}</Badge>
+            <Stack
+              direction="horizontal"
+              gap={1}
+              className="justify-content-center flex-wrap"
+            >
+              {tags.map((tag) => (
+                <Badge key={tag.id} className="text-truncate">
+                  {tag.label}
+                </Badge>
               ))}
-              </Stack>
+            </Stack>
           )}
         </Stack>
       </Card.Body>
