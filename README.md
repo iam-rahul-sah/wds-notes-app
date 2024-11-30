@@ -12,8 +12,16 @@ Techonology Stack - React with Typescript
 
 Library - react-bootstrap, react-markdown, react-router-dom, react-select, uuid
 
-Images
+**Images**
 
-![images](/src/assets/Screenshot%202024-11-29%20080510.png "Note App Home Page")
-![images](/src/assets/Screenshot%202024-11-29%20080526.png "Edit tag modal")
-![images](/src/assets/Screenshot%202024-11-29%20080617.png "Edit and create notes page")
+| ![images](/src/assets/Screenshot%202024-11-29%20080510.png "Note App Home Page") |
+| :--: |
+| *Notes App Home Page* |
+
+| ![images](/src/assets/Screenshot%202024-11-29%20080526.png "Edit tag modal") |
+| :--: |
+| *Edit Tags Modal* |
+
+| ![images](/src/assets/Screenshot%202024-11-29%20080617.png "Edit and create notes page") |
+| :--: |
+| *New Notes Page* |
