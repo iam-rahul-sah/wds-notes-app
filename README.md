@@ -8,9 +8,9 @@ This is a presonalized note taking app with added functinality of tags.
 - You can also create, edit, view and delete tags.
 - Markdown can be used for the body of the notes.
 
-Techonology Stack - React with Typescript
+**Techonology Stack** - React with Typescript
 
-Library - react-bootstrap, react-markdown, react-router-dom, react-select, uuid
+**Library** - react-bootstrap, react-markdown, react-router-dom, react-select, uuid
 
 **Images**
 
